@@ -1,8 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/(.*)", 
-      "destination": "/api/proxy/proxy.js" 
-    }
+  "routes": [
+    {"src": "/(.*)","dest": "http://59.110.12.230:8080"}
   ]
 }
