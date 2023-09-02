@@ -4,7 +4,7 @@ const myAxios = axios.create({
     // baseURL: 'http://127.0.0.1:8080',
     timeout: 30 * 1000, // 30s,
     // baseURL: 'http://59.110.12.230:8080'
-   baseURL: '/api',
+  //  baseURL: '/api',
 });
 myAxios.defaults.withCredentials = true;
 // 添加请求拦截器
