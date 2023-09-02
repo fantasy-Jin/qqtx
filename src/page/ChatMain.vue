@@ -172,8 +172,8 @@ const init = () => {
     showFailToast("您的浏览器不支持WebSocket")
   } else {
     // 区分线上和开发环境
-     let socketUrl = `ws://127.0.0.1:8080/api/websocket/${uid}/${stats.value.team.teamId}`
-    //  let socketUrl = `ws://59.110.12.230:8080/api/websocket/${uid}/${stats.value.team.teamId}`
+    //  let socketUrl = `ws://127.0.0.1:8080/api/websocket/${uid}/${stats.value.team.teamId}`
+     let socketUrl = `ws://59.110.12.230:8080/api/websocket/${uid}/${stats.value.team.teamId}`
     if (socket != null) {
       socket.close();
       socket = null;
